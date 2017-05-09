@@ -16,4 +16,4 @@ dodgers$ordered_day_of_week<-with(dodgers,
            )))))))
 #将日期转化为因子变量
 dodgers$ordered_day_of_week <- factor(dodgers$ordered_day_of_week, levels=1:7,
-                  labels=c("Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun"))
+    labels=c("Mon", "Tue", "Wed", "Thur", "Fri", "Sat", "Sun"))
